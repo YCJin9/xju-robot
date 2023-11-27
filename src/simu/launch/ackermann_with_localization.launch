@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find xju_simu)/launch/ackermann.launch" />
+  <include file="$(find xju_slam)/launch/localization.launch" />
+</launch>

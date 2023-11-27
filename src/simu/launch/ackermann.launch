@@ -6,7 +6,7 @@
 
   <param name="robot_description" command="$(find xacro)/xacro '$(find xju_simu)/urdf/xju_ackermann_model.urdf.xacro'"/>
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find xju_simu)/worlds/simple.world"/>
+    <arg name="world_name" value="$(find xju_simu)/worlds/bigscene.world"/>
     <arg name="paused" value="false"/>
     <arg name="use_sim_time" value="true"/>
     <arg name="gui" value="$(arg gui)"/>
